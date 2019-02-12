@@ -1,0 +1,72 @@
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.ddown{
+  color: whitesmoke;
+}
+#btntoggle{
+  display: none;
+}
+.overf{
+  padding: 10px;
+  width: 100%;
+  overflow-y: scroll;
+  height: 571px;
+  position: fixe
+}
+@media (max-width: 992px) {
+  #btntoggle {
+    display: block;
+  }
+}
+
+@media (max-width: 992px) {
+  #col-right {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .overf {
+    overflow: visible;
+  }
+}
+
+@media (max-width: 992px) {
+  #warn h3 {
+    font-size: 100%;
+  }
+}
+
+#warningBox1{
+  width: 50%;
+  height: 50%;
+}
+
+#warn{
+  padding: 20px;
+}
+
+#button{
+  margin: 0px;
+}
+
+@media (max-width: 992px) {
+  #warningBox1 {
+    height: 35%;
+    width: 60%;
+  }
+}
+
+
+@media (max-width: 992px) {
+  #warn {
+    padding: 10px;
+  }
+}
