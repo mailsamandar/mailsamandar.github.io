@@ -22,9 +22,9 @@
       <div class="container">
         <a class="navbar-brand" href="">Samandar</a>
         <ul class="navbar-nav">
-          <li class="nav-item mx-1"><i class="text-white fab fa-facebook"></i></li>
-          <li class="nav-item mx-1"><i class="text-white fab fa-telegram-plane"></i></li>
-          <li class="nav-item mx-1"><i class="text-white fab fa-instagram"></i></li>
+          <li class="nav-item mx-2"><i class="text-white fab fa-facebook"></i></li>
+          <li class="nav-item mx-2"><i class="text-white fab fa-telegram-plane"></i></li>
+          <li class="nav-item mx-2"><i class="text-white fab fa-instagram"></i></li>
         </ul>  
       </div>
     </nav>   
@@ -41,7 +41,7 @@
 </div>
 
 
-<div id="webboxes" class="container h-75 fixed-bottom" style="bottom:-470px;">
+<div id="webboxes" class="container h-75 fixed-bottom" style="bottom:-492px;">
   <div class="container mx-auto mt-5"> 
         <button id="close" class="float-right">X</button>
      <div class="d-flex flex-wrap">
@@ -69,13 +69,13 @@
 <script>
  $(document).ready(function(){
       $("button#open").click(function(){
-        $("#webboxes").animate({bottom: '0px'})
+        $("#webboxes").animate({bottom: '-5px'})
       });
     });
 
     $(document).ready(function(){
       $("button#close").click(function(){
-        $("#webboxes").animate({bottom: '-470px'})
+        $("#webboxes").animate({bottom: '-492px'})
       });
     });
 </script>
