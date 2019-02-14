@@ -1,15 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-</head>
-<body>
-  <h1>heading1</h1>
-  <p>paragraph</p>
-  <a href="mizuxe1/index.html">mizuxe</a>
-  <a href="EDUCATION/index.html">Education</a>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title></title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="css/styles.css" rel="stylesheet" />
+    <script src="js/jquery.js"></script>
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="">Samandar</a>  
+      </div>
+    </nav>
+
+<div id="strap" class="fixed-top bg-dark" style="top:-100px;">
+  <i class="fab fa-facebook">icon</i>
+  <i class="fab fa-facebook">icon</i>
+  <i class="fab fa-facebook">icon</i>
+</div>    
+
+<div id="home-section">
+  <div class="overlay">
+    <div class="d-flex align-items-center h-100">
+      <div id="box" class="p-5 mx-auto">
+        <h1 class="text-center text-light">Welcome To My <br> Portfolio</h1>
+        <button id="open" href="#" class="btn btn-success d-block px-5 py-2 mx-auto">SEE MORE</button>
+       </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="webboxes" class="container h-75 fixed-bottom" style="bottom:-470px;">
+  <div class="container mx-auto mt-5"> 
+        <button id="close" class="float-right">X</button>
+     <div class="d-flex flex-wrap">
+       <div class="bg-danger img-box m-1 mx-auto" style="width: 300px; height: 167px;">
+        <a href="mizuxe1/index.html">
+         <img class="img-fluid img-box" src="img/Безымянный.png" alt="">          
+        </a>
+       </div>
+       <div class="bg-danger m-1 img-box mx-auto" style="width: 300px; height: 167px;">
+        <a href="EDUCATION/index.html">
+          <img class="img-fluid img-box" src="img/education.png" alt="">          
+        </a>
+       </div>
+       <div class="bg-danger m-1 img-box mx-auto" style="width: 300px; height: 167px;">
+        <a href="looplab1/index.html">
+         <img class="img-fluid img-box" src="img/looplab.png" alt="">          
+        </a>
+       </div>
+  
+     </div>
+  </div>
+ 
+</div>    
+
+<script>
+ $(document).ready(function(){
+      $("button#open").click(function(){
+        $("#webboxes").animate({bottom: '0px'})
+      });
+    });
+
+    $(document).ready(function(){
+      $("button#close").click(function(){
+        $("#webboxes").animate({bottom: '-470px'})
+      });
+    });
+</script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
 </html>

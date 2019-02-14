@@ -1,52 +1,54 @@
-body{
-  margin-top: 105px;
+#home-section{
+  background: url(../img/item3.png);
+  background-repeat: no-repeat;
+  height: 626px;
+  background-size: cover; 
 }
-.navbar{
-  box-shadow: 2px 2px 5px #3292a6;
-  background-color: #fff;
-  opacity: 0.9;
-}
-.navbar .nav-item{
-  font-size: 1.4rem;
-  padding-right: 1.4rem;
-}
-#showcase{
-  position: relative;
-  background: url("../img/mountains.jpg");
-  min-height: 600px;
-}
-#showcase .primary-overlay{
-  background-color: rgba(50, 146, 166, 0.8);
+.overlay{
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%; 
+  height: 626px;
+  background: rgba(0, 0, 0, 0.5);
+}
+.navbar{
+  background: rgba(0, 0, 0, 0.3);
+}
+button#open{
+  background: rgba(17, 206, 26, 0.5);
+  border: none;
+  outline: none;
+}
+button#close{
+  background: none;
+  border:none;
+  margin-top: -30px;
+  margin-right: -10px;
+  color:white;
+  outline: none;
+}
+#webboxes{
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+}
+#strap{
+  width: 100px;
+  height: 100px;
+}
+.img-box{
+  border-radius: 4px;
+}
+.navbar a{
+  font-family: 'Kaufmann BT';
+  font-size: 200%;
+  margin: 0;
+  padding: 0;
+}
+#home-section h1{
+  font-family: 'Berlin Sans FB Demi';
 }
 
-@media (max-width: 768px) {
-#showcase {
-  min-height: 500px;
-}
-#showcase h1{
-  font-size: 4rem;
-}
-.mb-resp{
-  margin-bottom: 1rem;
-}
-}
-.info-header{
-  width: 50%;
-  margin: auto;
-  border-bottom: 1px solid #ddd;
-}
-#authors img{
-  margin-top: -50px;
-}
-#authors .card:hover{
-  background: #3292a6;
-  color: #fff;
-}
-#authors .fab{
-  color: #fff;
-}    
+
+
+
