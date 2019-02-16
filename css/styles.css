@@ -6,7 +6,6 @@ html{
 }
 body{
   min-height: 100%;
-  background-color: blue;
 }
 #home-section{
   background: url(../img/item3.png);
